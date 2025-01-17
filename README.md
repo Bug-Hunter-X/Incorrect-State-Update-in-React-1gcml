@@ -1,0 +1,2 @@
+# Incorrect State Update in React
+This example demonstrates an incorrect way to update state in a React functional component. Directly modifying the state variable with `count = count + 1;` does not trigger a re-render. React's state management system requires using the setter function provided by `useState` to update the state and trigger re-renders.
